@@ -19,8 +19,6 @@ fun isSafeWithProblemDampener(levels: List<Int>): Boolean {
 
 
 fun main() {
-
-
     fun part1(input: List<String>): Int {
         return input.count { line ->
             val levels = line.split(" ").map { it.toInt() }
@@ -44,6 +42,4 @@ fun main() {
     val input2 = readInput("input/Day02")
     part1(input).println()
     part2(input2).println()
-
-
 }
